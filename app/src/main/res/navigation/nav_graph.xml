@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/main3ActivityBT">
+
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="de.blitzkrieg.motorassistant.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+    <activity
+        android:id="@+id/main3ActivityBT"
+        android:name="de.blitzkrieg.motorassistant.Main3ActivityBT"
+        android:label="activity_main3_bt"
+        tools:layout="@layout/activity_main3_bt" />
+    <activity
+        android:id="@+id/main3ActivityHome"
+        android:name="de.blitzkrieg.motorassistant.Main3ActivityHome"
+        android:label="activity_main3_home"
+        tools:layout="@layout/activity_main3_home" />
+    <activity
+        android:id="@+id/main2ActivityCar"
+        android:name="de.blitzkrieg.motorassistant.Main2ActivityCar"
+        android:label="activity_main2"
+        tools:layout="@layout/activity_main2" />
+    <action
+        android:id="@+id/action_global_main3ActivityHome"
+        app:destination="@id/main3ActivityHome" />
+</navigation>

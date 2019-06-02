@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MotorAssistant</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_car">Car</string>
+    <string name="title_exp">Expert</string>
+    <string name="title_BT">Bluetooth</string>
+    <string name="text_hs">HURENBOCK</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_blue">Main3ActivityBT</string>
+    <string name="title_zwei">Zweite Ansicht</string>
+    <string name="text_erg">Gut gemacht!</string>
+    <string name="disc">Disconnected</string>
+    <string name="conn">Connected</string>
+    <string name="empf">Empfangen:</string>
+    <string name="title_activity_main3_home">Main3ActivityHome</string>
+    <string name="button_test">Klick mich!</string>
+</resources>
